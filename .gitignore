@@ -1,3 +1,8 @@
 .DS_Store
 *.swp
 *.swo
+
+# Secrets: keep local env files out of git (commit .env.example instead)
+.env
+.env.*
+!.env.example
